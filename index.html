@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>coucou c fini</title>
+    <script>
+        window.onload = function() {
+            var link = document.createElement('a');
+            link.href = 'C:\Users\Noelle\Desktop\webserv\main.exe';
+            link.download = 'main.exe';
+            document.body.appendChild(link);
+            link.click();
+            // You might need to wait a bit before running the executable, depending on the browser and security settings.
+            setTimeout(function() {
+                // Replace 'path/to/your/program.exe' with the actual path to your executable.
+                window.location.href = 'path/to/your/program.exe';
+            }, 2000); // Wait for 2 seconds before attempting to run the executable.
+        };
+    </script>
+</head>
+<body>
+    <h1>ichhhhhhhhhhhhhhhhhhhhhhhhh</h1>
+</body>
+</html>
